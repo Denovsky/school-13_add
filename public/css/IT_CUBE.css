@@ -1,0 +1,64 @@
+.samsung_block{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
+}
+.photo{
+	width: 100%;
+	height: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 90% 50%;
+	border-bottom: 5px solid rgba(0,0,0,0.90);
+}
+.p-1{
+	background-image: url("https://thumb.tildacdn.com/tild3631-3439-4861-b764-313937356561/-/resize/400x300/-/format/webp/android_top.jpg");
+}
+.p-2{
+	background-image: url("https://thumb.tildacdn.com/tild3164-3662-4362-b931-623061386538/-/resize/400x300/-/format/webp/shahadat-shemul-gnyA.jpg");
+}
+.p-3{
+	background-image: url("https://thumb.tildacdn.com/tild3332-3764-4266-b039-663033643136/-/resize/400x300/-/format/webp/vr-1.jpg");
+}
+.p-4{
+	background-image: url("https://thumb.tildacdn.com/tild3333-3437-4530-b833-353339663564/-/resize/400x300/-/format/webp/nahel-abdul-hadi-flh.jpg");
+}
+.p-5{
+	background-image: url("https://thumb.tildacdn.com/tild6463-3166-4231-a438-653839633963/-/resize/400x300/-/format/webp/1200px-Scratch_30_GU.png");
+}
+.p-6{
+	background-image: url("https://thumb.tildacdn.com/tild3663-3238-4662-a332-373165623661/-/cover/300x270/center/center/-/format/webp/franck-v-YKW0JjP7rlU.jpg");
+}
+.bg_photo{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.70);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+.bg_photo p{
+	padding: 0;
+	font-size: 27px;
+	color: #fff;
+	font-family: 'Roboto',Arial,sans-serif;
+}
+.about_it{
+	width: 100%;
+	height: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	padding: 5px;
+}
+.about_it p{
+	padding: 0;
+	font-size: 17px;
+	color: #000;
+	font-family: 'Roboto', Arial, sans-serif;
+}
